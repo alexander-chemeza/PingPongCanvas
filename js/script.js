@@ -39,12 +39,12 @@
       let rightPoint = 0;
       
       function CortDraw(){
-        bufferCtx.fillStyle = "#a2e8a2";
+        bufferCtx.fillStyle = "#a2e8e2";
         bufferCtx.fillRect(0, 0, canvas.width, canvas.height);
       }
       function ballDraw(){
         bufferCtx.beginPath();
-        bufferCtx.fillStyle = "yellow";
+        bufferCtx.fillStyle = "white";
         bufferCtx.arc(ball.posX, ball.posY, ball.radius, 0, Math.PI / 180 * 360);
         bufferCtx.fill();
       }
